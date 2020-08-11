@@ -32,7 +32,7 @@ Docker默认是不开启远程支持的，我们需要对Docker服务做一些�
 
     RestartSec=2
 
-    Restart=alway
+    Restart=always
     ```
 
 3. 编辑完配置文件，肯定是要重新启动一下服务以使其生效，这是常理。

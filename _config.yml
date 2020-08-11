@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 王博函的部落格
+title: WBHAN
 subtitle: 'Coding is fantistic!'
 description: 'Coding is fantistic, so I should record it.'
 keywords: Java,CPP,C++,操作系统,计算机网络,后端,服务器,编程,算法,生活,阅读
 author: Bohan Wang
-language: zh
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -30,6 +30,12 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -100,7 +106,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -108,23 +114,3 @@ deploy:
   type: 'git'
   repo: git@github.com:wangbohan2000/wangbohan2000.github.io
   branch: master 
-
-
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
