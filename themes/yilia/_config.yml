@@ -2,22 +2,24 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  分类: /categories
+  标签: /tags
+  # 随笔: /tags/随笔/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
-  #weixin: "#"
+  github: "https://github.com/wangbohan2000"
+  # weibo: "#"
+  # rss: "#"
+  zhihu: "https://www.zhihu.com/people/bo-xiao-han-66"
+  qq: /assets/img/qq.jpg
+  weixin: /assets/img/wechat.png
   #jianshu: "#"
   #douban: "#"
-  #segmentfault: "#"
-  #bilibili: "#"
+  segmentfault: "https://segmentfault.com/u/wangbohan"
+  bilibili: "https://space.bilibili.com/82180023"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "wbhan_cn@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -37,27 +39,27 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你请我吃棒棒糖'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /assets/img/alipay.png
 # 微信二维码图片地址
-weixin: 
+weixin: /assets/img/wechatpay.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
-toc_empty_wording: '目录，不存在的…'
+toc_empty_wording: '是不是觉得有个目录比较好？我就不！'
 
 # 是否有快速回到顶部的按钮
 top: true
@@ -65,10 +67,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /assets/img/avatar.jpg
 
 #你的头像url
-avatar:
+avatar: /assets/img/avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -91,11 +93,11 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_owner: 'wangbohan2000'      #你的 GitHub ID
+gitment_repo: 'wangbohan2000@gitHub.io'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: 'd3655057ed9a28e75223'           #client ID
+  client_secret: 'e11f5b859bc69987f52844f53293c203ce0b599e'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -116,15 +118,15 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  # friends: '其他活动场所'
   aboutme: '关于我'
 
-friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+# friends:
+#   友情链接1: http://localhost:4000/
+#   友情链接2: http://localhost:4000/
+#   友情链接3: http://localhost:4000/
+#   友情链接4: http://localhost:4000/
+#   友情链接5: http://localhost:4000/
+#   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 平凡但有一点理想，渴望让世界不一样，希望大家共同进步。
